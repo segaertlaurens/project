@@ -18,7 +18,7 @@
         ctx.fill();
         ctx.closePath();
         //head inner circle black
-        ctx.fillStyle = "black";
+        ctx.fillStyle = "red";
         ctx.beginPath();
         ctx.arc(100, 100, 80, 0.25 * Math.PI, 1.5 * Math.PI);
         ctx.lineTo(100, 100);
