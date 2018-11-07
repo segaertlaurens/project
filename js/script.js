@@ -5,7 +5,7 @@
     const init = () => {
 
         //head outer circle
-        ctx.fillStyle = "black";
+        ctx.fillStyle = "green";
         ctx.beginPath();
         ctx.arc(100, 100, 100, 1 * Math.PI, 0.25 * Math.PI);
         ctx.lineTo(100, 100);
@@ -113,12 +113,6 @@
         ctx.lineTo(0,225);
         ctx.fill();
         ctx.closePath();
-
-        
-
-
-        
-
 
     }
     init();
